@@ -138,7 +138,7 @@ export default function AccountManager() {
 
         {!loading && requests.length === 0 && (
           <div style={{ textAlign: 'center', marginTop: '100px', padding: '40px', background: '#111', borderRadius: '20px', border: '1px dashed #333' }}>
-            <p style={{ color: '#666', fontSize: '18px' }}>Your request list is clean! All 610+ bots were filtered.</p>
+            <p style={{ color: '#666', fontSize: '18px' }}>Your request list is clean!.</p>
           </div>
         )}
       </div>
