@@ -1,7 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   typescript: {
-    ignoreBuildErrors: true, // This bypasses the error in your screenshot
+    ignoreBuildErrors: true, 
+  },
+  images: {
+    remotePatterns: [
+      { protocol: 'https', hostname: '**' }, // This allows all external profile pictures to load safely
+    ],
   },
 };
 
